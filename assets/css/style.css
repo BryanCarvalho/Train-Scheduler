@@ -1,12 +1,11 @@
 
-/* Main styling */
-
 * {
   text-align: left;
 }
 
 body {
   background-image: url("../images/concrete-texture.png");
+  padding-bottom: 120px;
 }
 
 /* Background and body 
