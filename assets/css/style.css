@@ -2,68 +2,36 @@
 /* Main styling */
 
 * {
-  text-align: center;
-  }
-
-/* Background and body */
-
-body {
-  padding-top: 80px;
-  background-image: url("../images/sun-pattern.png");
-  font-family: 'Raleway', sans-serif;
-  color: black;
-  letter-spacing: 2px;
-}
-
-.splashBg {
-  background-color: #ffffff;
-  background-repeat: no-repeat;
-  padding: 80px;
-  width: 50%;
-  margin: 0 auto;
-  border-radius: 16px;
-  box-shadow: 0 10px 20px 0 rgba(22, 25, 32, 0.19), 0 6px 7px 0 rgba(22, 25, 32, 0.26);
-}
-
-.btn {
-  margin-left: 8px;
-}
-
-.form-control {
-  border-radius: 4px !important;
-}
-
-#nineties-input {
   text-align: left;
 }
 
-.input-group {
-  margin-bottom: 40px;
+body {
+  
 }
 
-.nineties-button {
-  font-family: 'Raleway', sans-serif;
-  padding: 8px;
-  color: white;
-  border-radius: 4px;
-  background-color: grey;
-  margin: 2px;
+/* Background and body 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+#FF9F1C - yellow
+#E71D36 - red
+*/
+
+.jumbotron-fluid {
+  background-color: #011627;
 }
 
-.nineties-button:hover { 
-  background-color: darkgrey;
+.display-4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #2EC4B6;
 }
 
-/* Font styles */
-
-h1 {
-  font-family: 'Sigmar One', serif;
-  font-size: 60px;
-  color: orange;
+.lead {
+  color: #FDFFFC;
+  letter-spacing: 1px;
 }
 
-p {
-  padding-top: 24px;
-  padding-bottom: 16px;
-  border-top: 1px solid #f1f1f1;
+.fas {
+  padding-right: 8px;
 }
